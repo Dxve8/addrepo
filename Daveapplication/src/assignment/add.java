@@ -19,10 +19,10 @@ public class add {
 	    int a, b,sub;
 	    Scanner sc = new Scanner(System.in); 
 	    System.out.println("Type a number:");
-	    x = sc.nextInt(); 
-	    y = sc.nextInt();
+	    a = sc.nextInt(); 
+	    b= sc.nextInt();
 
-	    sub= x + y; 
+	    sub=  a-b;
 	    System.out.println("the sub is " +sub); 
 	    
 	    
