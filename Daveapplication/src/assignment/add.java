@@ -14,6 +14,18 @@ public class add {
 
 	    sum = x + y; 
 	    System.out.println("Sum is: " + sum); 
+	    
+	    
+	    int a, b,sub;
+	    Scanner sc = new Scanner(System.in); 
+	    System.out.println("Type a number:");
+	    x = sc.nextInt(); 
+	    y = sc.nextInt();
+
+	    sub= x + y; 
+	    System.out.println("the sub is " +sub); 
+	    
+	    
 	}
 
 }
